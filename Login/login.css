@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Hanuman', sans-serif;
+}
+
+.container {
+    width: 1440px;
+    height: 700px;
+    position: relative;
+    background: white;
+}
+
+.header {
+    width: 100%;
+    height: 119px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+}
+
+.logo {
+    font-size: 40px;
+    font-family: 'Irish Grover', cursive;
+    color: black;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    color: black;
+}
+
+.nav-item {
+    font-size: 24px;
+}
+
+.main {
+    position: absolute;
+    top: 200px;
+    left: 90px;
+}
+
+.form-group {
+    width: 358px;
+    padding: 18px 19px;
+    margin-bottom: 20px;
+    background: rgba(84, 106, 221, 0.5);
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative; /* Tambahkan properti posisi */
+    top: 200px; /* Geser ke bawah sebanyak 50px */
+    left: 40px; 
+}
+
+.form-item {
+    color: black;
+    font-size: 24px;
+}
+
+.login-button {
+    width: 222px;
+    height: 66px;
+    background: #1136FD;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative; /* Tambahkan properti posisi */
+    top: 220px; /* Geser ke bawah sebanyak 50px */
+    left: 40px; 
+}
+
+.button-text {
+    color: white;
+    font-size: 24px;
+}
+
+.image {
+    width: 523px;
+    height: 343px;
+    position: absolute;
+    top: 197px;
+    left: 759px;
+}

@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: 'Hanuman', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px; /* Sesuaikan lebar maksimum sesuai kebutuhan */
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative; /* Tambahkan posisi relatif untuk child elements */
+    top: 150px;
+}
+
+.title {
+    color: black;
+    font-size: 48px;
+    font-family: 'Lilita One', sans-serif;
+    font-weight: 400;
+    line-height: 62.40px;
+    word-wrap: break-word;
+    margin-bottom: 20px; /* Tambahkan jarak ke bawah */
+}
+
+.contact-item {
+    padding: 18px 19px;
+    margin-bottom: 10px;
+    background: rgba(84, 106, 221, 0.5);
+    border-radius: 30px;
+    overflow: hidden;
+    width: calc(100% - 66px); /* Sesuaikan nilai sesuai kebutuhan */
+    color: black;
+    font-size: 24px;
+    font-family: 'Hanuman', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.contact-item:nth-child(2) {
+    top: 253px; /* Sesuaikan posisi top */
+}
+
+.contact-item:nth-child(3) {
+    top: 321px; /* Sesuaikan posisi top */
+}
+
+.contact-item:nth-child(4) {
+    top: 389px; /* Sesuaikan posisi top */
+}
+
+.contact-item:nth-child(5) {
+    top: 457px; /* Sesuaikan posisi top */
+}
+

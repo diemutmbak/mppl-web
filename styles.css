@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: 'Hanuman', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 1440px;
+    height: 700px;
+    background: white;
+}
+
+.header {
+    position: absolute;
+    width: 1440px;
+    height: 119px;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    background: white;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.button {
+    padding: 10px 20px;
+    background: rgba(84, 106, 221, 0.5);
+    border-radius: 30px;
+    font-size: 24px;
+    color: #1B1818;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact, .help {
+    background: none;
+    color: black;
+}
+
+.image {
+    position: absolute;
+}
+
+.image:first-of-type {
+    left: 60px;
+    top: 100px; /* Ubah nilai top agar gambar berada di bawah navbar */
+}
+
+.image:last-of-type {
+    left: 861px;
+    top: 100px; /* Ubah nilai top agar gambar berada di bawah navbar */
+}
+
+
+.description {
+    position: absolute;
+    width: 754px;
+    height: 118px;
+    left: 343px;
+    top: 500px;
+    text-align: center;
+    font-size: 24px;
+    color: black;
+}
+
+.register-button {
+    position: absolute;
+    width: 222px;
+    height: 66px;
+    left: 610px;
+    top: 600px;
+    background: #396520;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-text {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
